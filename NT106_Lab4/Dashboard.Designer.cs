@@ -77,7 +77,7 @@ partial class Dashboard
         btnBai1.TabIndex = 0;
         btnBai1.Text = "Bài 1";
         btnBai1.UseVisualStyleBackColor = true;
-        btnBai1.Click += btnOther_Click;
+        btnBai1.Click += btnBai1_Click;
         // 
         // btnBai2
         // 
