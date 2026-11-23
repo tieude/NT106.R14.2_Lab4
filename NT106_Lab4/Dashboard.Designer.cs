@@ -146,7 +146,7 @@ partial class Dashboard
         btnBai7.TabIndex = 6;
         btnBai7.Text = "Bài 7";
         btnBai7.UseVisualStyleBackColor = true;
-        btnBai7.Click += btnOther_Click;
+        btnBai7.Click += btnBai7_Click;
         // 
         // lblFooter
         // 

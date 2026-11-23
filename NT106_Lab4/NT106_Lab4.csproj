@@ -10,8 +10,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="HtmlAgilityPack" Version="1.11.71" />
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2903.40" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Content Include="Bai7\Assets\**\*.jpg" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Bai7\Bai7.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="Bai7\Bai7.Designer.cs"><DependentUpon>Bai7.cs</DependentUpon></Compile>
+    <EmbeddedResource Update="Bai7\Bai7.resx"><DependentUpon>Bai7.cs</DependentUpon></EmbeddedResource>
+
+    <Compile Update="Bai7\DangNhap.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="Bai7\DangNhap.Designer.cs"><DependentUpon>DangNhap.cs</DependentUpon></Compile>
+    <EmbeddedResource Update="Bai7\DangNhap.resx"><DependentUpon>DangNhap.cs</DependentUpon></EmbeddedResource>
+
+    <Compile Update="Bai7\ThemMon.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="Bai7\ThemMon.Designer.cs"><DependentUpon>ThemMon.cs</DependentUpon></Compile>
+    <EmbeddedResource Update="Bai7\ThemMon.resx"><DependentUpon>ThemMon.cs</DependentUpon></EmbeddedResource>
   </ItemGroup>
 
 </Project>

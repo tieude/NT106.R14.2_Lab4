@@ -31,6 +31,30 @@ public partial class Dashboard : Form
         formBai3.Show();
     }
 
+    private async void btnBai7_Click(object? sender, EventArgs e)
+    {
+        Button? nutBai7 = sender as Button;
+        if (nutBai7 != null) nutBai7.Enabled = false;
+        try
+        {
+            // May chinh tu chay API. May khac chi can tro den IP may chinh.
+            if (Bai7.KetNoiApi.DungServerTaiCho)
+                await Bai7Server.MayChuApi.KhoiDong();
+
+            using var form = new Bai7.DangNhap();
+            form.ShowDialog(this);
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show("Khong khoi dong duoc API: " + ex.Message,
+                "Bai 7", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+        finally
+        {
+            if (nutBai7 != null) nutBai7.Enabled = true;
+        }
+    }
+
     private void btnOther_Click(object? sender, EventArgs e)
     {
         if (sender is Button btn)
