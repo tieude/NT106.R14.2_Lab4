@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "vEb9EHmBYPw=",
+  "success": true,
+  "projectFilePath": "D:\\NT106.R14.2_Lab4\\NT106_Lab4\\NT106_Lab4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Phan Hoang Dong Vy\\.nuget\\packages\\htmlagilitypack\\1.11.71\\htmlagilitypack.1.11.71.nupkg.sha512",
+    "C:\\Users\\Phan Hoang Dong Vy\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
+    "C:\\Users\\Phan Hoang Dong Vy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.20\\microsoft.windowsdesktop.app.ref.9.0.20.nupkg.sha512",
+    "C:\\Users\\Phan Hoang Dong Vy\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.20\\microsoft.netcore.app.ref.9.0.20.nupkg.sha512",
+    "C:\\Users\\Phan Hoang Dong Vy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.20\\microsoft.aspnetcore.app.ref.9.0.20.nupkg.sha512",
+    "C:\\Users\\Phan Hoang Dong Vy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.20\\microsoft.netcore.app.host.win-x64.9.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
