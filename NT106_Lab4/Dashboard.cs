@@ -24,6 +24,17 @@ public partial class Dashboard : Form
         formBai1.Show();
     }
 
+    private void btnBai2_Click(object? sender, EventArgs e)
+    {
+        OpenBai2Form();
+    }
+
+    private void OpenBai2Form()
+    {
+        Lab04___Bai2.bai2 formBai2 = new Lab04___Bai2.bai2();
+        formBai2.Show();
+    }
+
     private void btnBai3_Click(object? sender, EventArgs e)
     {
         OpenBai3Form();
@@ -44,6 +55,24 @@ public partial class Dashboard : Form
     {
         Bai_4.Bai4 formBai4 = new Bai_4.Bai4();
         formBai4.Show();
+    }
+
+    private async void btnBai7_Click(object? sender, EventArgs e)
+    {
+        try
+        {
+            if (Bai7.KetNoiApi.DungServerTaiCho)
+            {
+                await Bai7Server.MayChuApi.KhoiDong();
+            }
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Không thể khởi động server nội bộ: {ex.Message}", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+
+        Bai7.DangNhap formBai7 = new Bai7.DangNhap();
+        formBai7.Show();
     }
 
     private void btnOther_Click(object? sender, EventArgs e)

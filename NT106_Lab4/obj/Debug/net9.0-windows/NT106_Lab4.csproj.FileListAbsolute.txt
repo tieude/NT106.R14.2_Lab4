@@ -33,3 +33,6 @@ D:\NT106.R14.2_Lab4\NT106_Lab4\obj\Debug\net9.0-windows\NT106_Lab4.pdb
 D:\NT106.R14.2_Lab4\NT106_Lab4\obj\Debug\net9.0-windows\NT106_Lab4.genruntimeconfig.cache
 D:\NT106.R14.2_Lab4\NT106_Lab4\obj\Debug\net9.0-windows\ref\NT106_Lab4.dll
 D:\NT106.R14.2_Lab4\NT106_Lab4\obj\Debug\net9.0-windows\Lab04___Bai2.bai2.resources
+D:\NT106.R14.2_Lab4\NT106_Lab4\obj\Debug\net9.0-windows\NT106_Lab4.Bai7.Bai7.resources
+D:\NT106.R14.2_Lab4\NT106_Lab4\obj\Debug\net9.0-windows\NT106_Lab4.Bai7.DangNhap.resources
+D:\NT106.R14.2_Lab4\NT106_Lab4\obj\Debug\net9.0-windows\NT106_Lab4.Bai7.ThemMon.resources
